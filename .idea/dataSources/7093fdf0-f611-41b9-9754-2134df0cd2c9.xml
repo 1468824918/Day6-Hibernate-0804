@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - Hibernate@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="Hibernate">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="bookstore"/>
+    <schema id="3" name="exam"/>
+    <schema id="4" name="hi0703"/>
+    <schema id="5" name="homework"/>
+    <schema id="6" name="information_schema"/>
+    <schema id="7" name="java0703"/>
+    <schema id="8" name="javademo"/>
+    <schema id="9" name="mydb01"/>
+    <schema id="10" name="mydb1"/>
+    <schema id="11" name="mydb10"/>
+    <schema id="12" name="mydb3"/>
+    <schema id="13" name="mydb4"/>
+    <schema id="14" name="mydb5"/>
+    <schema id="15" name="mydb666"/>
+    <schema id="16" name="mydb9"/>
+    <schema id="17" name="mydb999"/>
+    <schema id="18" name="mysql"/>
+    <schema id="19" name="performance_schema"/>
+    <schema id="20" name="sys"/>
+    <table id="21" parent="1" name="Student"/>
+    <column id="22" parent="21" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="23" parent="21" name="name">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="24" parent="21" name="gender">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="25" parent="21" name="age">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="26" parent="21" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
